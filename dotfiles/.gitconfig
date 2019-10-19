@@ -1,0 +1,7 @@
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[user]
+	name = Andrew Woodruff
+	email = agwoodruff93@gmail.com
