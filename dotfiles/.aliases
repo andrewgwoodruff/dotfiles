@@ -1,0 +1,27 @@
+#!/usr/bin/env zsh
+
+# Zsh Config
+alias zshconfig="code ~/.zshrc"
+alias zshrc=zshconfig
+alias aliases="code ~/.aliases"
+
+# Directory
+alias sl=ls
+alias ls='ls -G'        # Compact view, show colors
+alias la='ls -AF'       # Compact view, show hidden
+alias ll='ls -alh'
+alias l='ls -a'
+alias l1='ls -1'
+
+# Open Programs
+alias xcode="open -a '/Applications/XCode.app'"
+alias safari="open -a safari"
+alias chrome="open -a google\ chrome"
+alias textedit='open -a TextEdit'
+alias slack="open -a '/Applications/Slack.app'"
+
+# Cache
+alias flush='dscacheutil -flushcache'
+
+# Random/Fun
+alias weather="curl http://wttr.in/saratoga-springs-ut"
