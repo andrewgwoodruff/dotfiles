@@ -24,4 +24,4 @@ alias slack="open -a '/Applications/Slack.app'"
 alias flush='dscacheutil -flushcache'
 
 # Random/Fun
-alias weather="curl http://wttr.in/saratoga-springs-ut"
+alias weather="curl http://wttr.in/mapleton-ut"
